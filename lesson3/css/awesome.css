@@ -6,10 +6,13 @@
   text-align: center;
   margin-top: 100px;
 }
-.awesome-line {
+.awesome-title::after {
+  content: '';
   width: 64px;
-  margin: auto;
-  margin-top: 25px;
+  height: 2px;
+  display: block;
+  margin: 30px auto 0 auto;
+  background-color: #d98943;
 }
 .awesome-description {
   margin-top: 30px;
