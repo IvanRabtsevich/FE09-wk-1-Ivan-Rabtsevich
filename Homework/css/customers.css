@@ -29,6 +29,7 @@
   margin: 0 40px 119px 40px;
   justify-content: space-between;
   flex-direction: column;
+  padding: 0 5px 5px;
 }
 .customers-row__item:hover {
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.25);
