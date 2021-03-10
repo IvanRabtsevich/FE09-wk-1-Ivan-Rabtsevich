@@ -1,6 +1,9 @@
 .customers {
   width: 100%;
   background-color: white;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
 }
 .customers-title {
   text-align: center;
@@ -34,9 +37,6 @@
 }
 
 .customers-row__text {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   align-items: center;
@@ -74,21 +74,18 @@
   margin-left: 10px;
 }
 .customer {
+  text-align: right;
+  vertical-align: middle;
 }
 .customers-row__card-name {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 45px;
   color: #333333;
 }
 .customers-row__card-occupation {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 10px;
   color: #86878b;
 }
 .thor {
