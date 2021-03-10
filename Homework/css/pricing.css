@@ -2,6 +2,7 @@
   width: 100%;
   background-color: #e5e5e5;
 }
+
 .pricing-title {
   text-align: center;
   padding-top: 80px;
@@ -30,6 +31,9 @@
 .pricing-item:hover {
   position: relative;
   bottom: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+  border-radius: 7px;
 }
 .dark {
   background-color: #333333;

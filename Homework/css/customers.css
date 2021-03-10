@@ -15,9 +15,6 @@
   margin: 30px auto 0 auto;
   background-color: #d98943;
 }
-.customers-description {
-}
-
 .customers-row {
   margin-top: 76px;
 }
@@ -26,6 +23,11 @@
   max-width: 298px;
   margin: auto;
   margin: 0 40px 119px 40px;
+}
+.customers-row__item:hover {
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+  border-radius: 7px;
 }
 
 .customers-row__text {
