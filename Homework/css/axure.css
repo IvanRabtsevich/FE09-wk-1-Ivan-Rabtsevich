@@ -6,6 +6,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  padding: 60px 0;
 }
 
 .axure::after {
@@ -20,7 +21,6 @@
 
 .axure-title {
   text-align: center;
-  padding-top: 58px;
   text-transform: uppercase;
   color: white;
 }
@@ -42,9 +42,7 @@
   text-align: center;
   margin-top: 34px;
 }
-.axure-btn {
-  padding-bottom: 49px;
-}
+
 .axure-btn__border {
   border: 1px solid white;
   width: 135px;
@@ -60,6 +58,7 @@
   line-height: 42px;
   color: #ffffff;
   padding: 11px 32px;
+  transition: 0.5s;
 }
 
 .axure-btn__border :hover {

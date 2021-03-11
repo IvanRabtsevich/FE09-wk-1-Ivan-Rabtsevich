@@ -4,10 +4,10 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
+  padding: 100px 0 80px;
 }
 .customers-title {
   text-align: center;
-  margin-top: 80px;
   text-transform: uppercase;
 }
 .customers-title::after {
@@ -26,11 +26,13 @@
   display: flex;
   max-width: 298px;
   margin: auto;
-  margin: 0 40px 119px 40px;
+  margin: 0 15px 20px;
   justify-content: space-between;
   flex-direction: column;
   padding: 0 5px 5px;
+  transition: 1s;
 }
+
 .customers-row__item:hover {
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.25);
   transition: 0.3s;
@@ -73,6 +75,12 @@
   height: 70px;
   overflow: hidden;
   margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar {
+  height: 100%;
 }
 .customer {
   text-align: right;
@@ -88,13 +96,4 @@
   font-size: 14px;
   line-height: 10px;
   color: #86878b;
-}
-.thor {
-  margin: -10px -40px;
-}
-.ivan {
-  margin: -15px -105px;
-}
-.alex {
-  margin: 0 -15px;
 }
