@@ -58,7 +58,7 @@
   line-height: 42px;
   color: #ffffff;
   padding: 11px 32px;
-  transition: 0.5s;
+  transition: 0.5s ease;
 }
 
 .axure-btn__border :hover {

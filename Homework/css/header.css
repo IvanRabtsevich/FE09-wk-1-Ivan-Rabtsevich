@@ -1,0 +1,70 @@
+.header {
+  width: 100%;
+  background-color: black;
+  padding: 15px 0;
+  /*position: fixed;*/
+  z-index: 999;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+.header-logo {
+  transition: 0.3s ease;
+}
+.header-logo:hover {
+  transform: scale(1.2);
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.logo::after {
+  content: 'IT';
+  color: #ec7979;
+}
+.header-bar {
+}
+.menu {
+  display: flex;
+}
+
+.menu-tab {
+  margin-right: 48px;
+}
+.menu-tab:last-child {
+  margin-right: 10px;
+}
+.menu-tab__text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.7);
+
+  position: relative;
+}
+
+.menu-tab__text::after {
+  content: '';
+  position: absolute;
+  left: 0%;
+  width: 0;
+  top: 110%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: all 0.3s ease;
+}
+.menu-tab__text:hover::after {
+  width: 100%;
+}

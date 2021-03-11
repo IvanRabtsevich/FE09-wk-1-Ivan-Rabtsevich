@@ -27,11 +27,9 @@
   text-align: center;
   min-width: 340px;
   margin: 0 15px 40px;
-  transition: 0.5s;
+  transition: 0.5s ease;
 }
 .pricing-item:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
   transform: scale(1.1);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
   border-radius: 7px;
@@ -54,10 +52,9 @@
   font-size: 20px;
   line-height: 27px;
   text-align: center;
-  transition: 0.4s;
+  transition: 0.4s ease;
 }
 .dark-title:hover {
-  font-size: 23px;
   cursor: pointer;
 }
 .dark-price {
@@ -70,20 +67,18 @@
   line-height: 100px;
   margin-top: 1px;
   margin-bottom: 2px;
-  transition: 0.4s;
+  transition: 0.4s ease;
 }
 .dark-price:hover {
-  font-size: 40px;
   cursor: pointer;
 }
 .dark-free {
   line-height: 50px;
-  transition: 0.4s;
+  transition: 0.4s ease;
+  font-weight: bold;
 }
 .dark-free:hover {
   color: white;
-  font-size: 18px;
-  font-weight: bold;
   cursor: pointer;
 }
 .light {
@@ -96,11 +91,10 @@
   line-height: 19px;
   line-height: 40px;
   margin-top: 4px;
-  transition: 0.4s;
+  transition: 0.4s ease;
 }
 .light:hover {
   background-color: grey;
   color: white;
-  font-size: 17px;
   cursor: pointer;
 }
