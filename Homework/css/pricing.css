@@ -33,7 +33,6 @@
   position: relative;
   bottom: 12px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
-  transition: 0.3s;
   border-radius: 7px;
 }
 .dark {
@@ -43,7 +42,6 @@
 }
 .dark:hover {
   background-color: #d98943;
-  transition: 0.4s;
 }
 .dark-title {
   color: white;
@@ -59,7 +57,6 @@
 }
 .dark-title:hover {
   font-size: 23px;
-  transition: 0.4s;
   cursor: pointer;
 }
 .dark-price {
@@ -76,7 +73,6 @@
 }
 .dark-price:hover {
   font-size: 40px;
-  transition: 0.4s;
   cursor: pointer;
 }
 .dark-free {
@@ -87,7 +83,6 @@
   color: white;
   font-size: 18px;
   font-weight: bold;
-  transition: 0.4s;
   cursor: pointer;
 }
 .light {
@@ -106,6 +101,5 @@
   background-color: grey;
   color: white;
   font-size: 17px;
-  transition: 0.4s;
   cursor: pointer;
 }
