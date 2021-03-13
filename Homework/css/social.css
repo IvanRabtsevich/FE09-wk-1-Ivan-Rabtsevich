@@ -32,22 +32,22 @@
 }
 .social-menu {
   margin: 15px 0;
+  width: 684px;
 }
 .social-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 .social-icon {
-  margin-right: 40px;
   transition: 0.3s ease;
 }
 .social-icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
-.social-icon:last-child {
-  margin-right: 0;
+.social-icon:active {
+  transform: scale(1.1);
 }
+
 .social-link {
   color: #cccccc;
   font-size: 42px;

@@ -29,7 +29,8 @@
   width: 64px;
   height: 2px;
   display: block;
-  margin: 34px auto 0 auto;
+  margin: auto;
+  margin-top: 34px;
   background-color: white;
 }
 .axure-description {
@@ -43,24 +44,7 @@
   margin-top: 34px;
 }
 
-.axure-btn__border {
-  border: 1px solid white;
-  width: 135px;
-  text-align: center;
+.axure-btn {
   margin: auto;
-  margin-top: 68px;
-}
-.axure-btn__text {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 42px;
-  color: #ffffff;
-  padding: 11px 32px;
-  transition: 0.5s ease;
-}
-
-.axure-btn__border :hover {
-  background-color: rgba(0, 0, 0, 0.65);
+  margin-top: 61px;
 }

@@ -7,11 +7,8 @@
   text-align: center;
 }
 .awesome-title::after {
+  margin: auto;
   content: '';
-  width: 64px;
-  height: 2px;
-  display: block;
-  margin: 30px auto 0 auto;
   background-color: #d98943;
 }
 .awesome-description {

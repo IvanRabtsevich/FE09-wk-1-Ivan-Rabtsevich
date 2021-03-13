@@ -5,6 +5,9 @@
 @import url('../css/header.css');
 @import url('../css/footer.css');
 @import url('../css/social.css');
+@import url('../css/axit.css');
+@import url('../css/features.css');
+@import url('../css/contact.css');
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +28,7 @@
   transition: 0.3s ease;
 }
 .fa-chevron-up {
-  color: rgba(217, 137, 67, 0.8);
+  color: rgba(217, 137, 67, 0.7);
   padding: 0 5px;
 }
 .fa-chevron-up:hover {
@@ -49,6 +52,14 @@
   font-weight: normal;
   font-size: 36px;
   line-height: 42px;
+  text-transform: uppercase;
+}
+.title::after {
+  content: '';
+  width: 64px;
+  height: 2px;
+  display: block;
+  margin-top: 30px;
 }
 
 .description {
@@ -66,4 +77,51 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.download-btn {
+  width: 135px;
+  transition: 0.2s ease;
+}
+.download-btn:hover {
+  background-color: #ec7979;
+}
+.download-btn:active {
+  transform: scale(0.9);
+  background-color: #ec5454;
+}
+.download-btn__border {
+  border: 1px solid white;
+  text-align: center;
+}
+.download-btn__border:active {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.download-btn__text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 42px;
+  color: #ffffff;
+  padding: 11px 32px;
+}
+.input {
+  border: 0;
+  border-bottom: 1px solid #bdbdbd;
+  line-height: 19px;
+  color: black;
+  text-align: center;
+}
+.input:focus {
+  outline: none;
+}
+label {
+  display: inline-block;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
 }

@@ -16,6 +16,9 @@
 .footer-social__icon:hover {
   transform: scale(1.4);
 }
+.footer-social__icon:active {
+  transform: scale(1.2);
+}
 .footer-social__icon:last-child {
   margin-right: 0;
 }
