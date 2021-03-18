@@ -6,9 +6,9 @@
 .social-row {
   display: flex;
   align-items: center;
-  margin: 0 -15px;
+
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .social-media {
   max-width: 365px;

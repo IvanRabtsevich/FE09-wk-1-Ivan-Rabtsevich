@@ -4,18 +4,17 @@
 }
 .features-row {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
-  margin: 0 -15px;
 }
-.features-tabs,
-.features-content,
-.features-image {
-  margin: 15px 15px;
+
+.features-content {
+  padding: 15px 15px;
+  margin: auto;
 }
+
 .tab-list {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
 }
 .tab {

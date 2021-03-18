@@ -18,10 +18,9 @@
 }
 .axit-row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 15px;
 }
 .axit-row__face {
   max-width: 544px;
