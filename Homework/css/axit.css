@@ -64,25 +64,30 @@
 }
 
 .axit-row__form {
-  width: 370px;
+  max-width: 370px;
 }
 .axit-form {
   background-color: white;
   border-radius: 8px;
+  width: 100%;
 }
-
+.axit-form__list {
+  padding: 55px 59px;
+  width: 252px;
+}
 .axit-form__label {
   margin-top: 19px;
   text-align: center;
+  width: 100%;
+}
+label {
+  width: 100%;
 }
 .axit-form__label:first-child {
   margin-top: 0;
 }
-.axit-form__label:nth-child(2) {
+.axit-form__label:nth-child(1) {
   margin-top: 0;
-}
-.axit-form__label:nth-child(4) {
-  padding-bottom: 55px;
 }
 .axit-form__text {
   font-family: Open Sans;
@@ -93,21 +98,20 @@
   text-align: center;
   color: #333333;
   padding-top: 15px;
-  margin-bottom: 44px;
 }
 .colored-word {
   color: #ec7979;
 }
 
 .axit-input {
-  width: 252px;
+  width: 100%;
 }
 
 .axit-form__button {
   background-color: #ec7979;
   border: 0 solid;
   padding: 15px 0;
-  width: 370px;
+  width: 100%;
   border-radius: 0 0 8px 8px;
   color: white;
   font-size: 15px;

@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 480px;
+  max-width: 480px;
   margin: 0 20px 0 0;
 }
 
@@ -34,19 +34,21 @@
 
 .contact-form__label {
   margin-top: 32px;
-  width: 480px;
+  max-width: 480px;
 }
 .contact-form__button {
   display: block;
   background-color: #ec7979;
   border: 0 solid;
-  width: 166px;
-  font-size: 15px;
+  max-width: 166px;
+  font-size: 18px;
+  line-height: 20px;
   transition: 0.3s ease;
   margin: auto;
   margin-top: 70px;
   padding: 13px 0;
   color: white;
+  text-align: center;
 }
 .contact-form__button:hover {
   transform: scale(1.1);
