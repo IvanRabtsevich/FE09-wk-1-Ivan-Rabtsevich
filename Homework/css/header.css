@@ -36,10 +36,10 @@
 }
 
 .menu-tab {
-  margin-right: 48px;
+  margin-left: 48px;
 }
-.menu-tab:last-child {
-  margin-right: 10px;
+.menu-tab:first-child {
+  margin-left: 0;
 }
 .menu-tab__text {
   font-family: Open Sans;

@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 0 15px;
+  margin: 0 -15px;
 }
 .features-tabs,
 .features-content,
@@ -83,4 +83,10 @@
 }
 .features-subtitle {
   margin-top: 58px;
+}
+.features-image__about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
