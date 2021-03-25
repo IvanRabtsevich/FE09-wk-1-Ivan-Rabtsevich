@@ -56,3 +56,18 @@
 .subtitle-description {
   text-align: center;
 }
+@media (max-width: 1200px) {
+  .awesomeitem {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 809px) {
+  .awesomeitem:first-child {
+    margin-top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .awesome {
+    padding: 50px 0 100px;
+  }
+}

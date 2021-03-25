@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
 
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 .social-media {
@@ -51,4 +50,18 @@
 .social-link {
   color: #cccccc;
   font-size: 42px;
+}
+
+@media (max-width: 768px) {
+  .social-row {
+    align-items: center;
+    justify-content: center;
+  }
+  .social-row {
+    flex-wrap: wrap;
+  }
+  .social-title,
+  .social-text {
+    text-align: center;
+  }
 }

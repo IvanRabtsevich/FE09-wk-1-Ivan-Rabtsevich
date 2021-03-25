@@ -132,3 +132,26 @@ label {
 .axit-form__button:focus {
   outline: none;
 }
+
+@media (max-width: 943px) {
+  .axit-row {
+    justify-content: center;
+  }
+}
+@media (max-width: 580px) {
+  .axit-row__form {
+    width: 300px;
+  }
+  .axit-form__list {
+    width: 60%;
+  }
+  .axit-row__face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .axit-title::after {
+    margin: auto;
+  }
+}

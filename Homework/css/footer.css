@@ -4,13 +4,14 @@
   padding: 30px 0 15px;
 }
 .footer-social__menu {
+  max-width: 470px;
+  margin: auto;
 }
 .footer-social__list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .footer-social__icon {
-  margin-right: 38px;
   transition: 0.3s ease;
 }
 .footer-social__icon:hover {

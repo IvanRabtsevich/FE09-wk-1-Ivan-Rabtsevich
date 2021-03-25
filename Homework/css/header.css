@@ -65,3 +65,12 @@
 .menu-tab__text:hover::after {
   width: 100%;
 }
+@media (max-width: 943px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 580px) {
+  .header-bar {
+    display: none;
+  }
+}
