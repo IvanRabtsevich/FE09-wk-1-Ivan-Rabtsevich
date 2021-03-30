@@ -1,0 +1,79 @@
+.works {
+  width: 100%;
+}
+.works-content {
+}
+.works-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work-row__item {
+  border: 1px solid white;
+  width: 480px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 0.2s ease-out;
+}
+.work-row__item:hover::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 69, 69, 0.9);
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.portfolio-img__descr {
+  position: absolute;
+  top: center;
+  left: center;
+  color: white;
+  text-align: center;
+  display: none;
+}
+.work-row__item:hover .portfolio-img__descr {
+  display: block;
+  z-index: 1;
+}
+.project-name {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: ' Raleway';
+}
+.work-descr {
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: 'Raleway';
+  margin-top: 13px;
+}
+.portfolio-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 1024px) {
+  .work-row__item {
+    height: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .work-row__item:first-child {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .work-row__item:last-child {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  .works-row {
+    flex-wrap: wrap;
+  }
+}
