@@ -1,8 +1,7 @@
 .works {
   width: 100%;
 }
-.works-content {
-}
+
 .works-row {
   display: flex;
   justify-content: center;
@@ -16,7 +15,6 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  transition: 0.2s ease-out;
 }
 .work-row__item:hover::after {
   content: '';
@@ -56,6 +54,7 @@
   height: 100%;
   object-fit: cover;
 }
+
 @media (max-width: 1024px) {
   .work-row__item {
     height: 280px;

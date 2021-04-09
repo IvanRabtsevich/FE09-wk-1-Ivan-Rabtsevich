@@ -20,8 +20,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*border-bottom: 1px solid rgba(146, 143, 143, 0.2);*/
-  height: 100px;
+  padding: 35px;
 }
 .header-menu {
   display: flex;
@@ -55,6 +54,11 @@
   font-size: 0.812rem;
   color: rgb(211, 211, 211);
 }
+@media (max-width: 1024px) {
+  .header-content {
+    padding: 15px;
+  }
+}
 
 @media (max-width: 768px) {
   .menu-list {
@@ -80,17 +84,17 @@
     opacity: 0;
   }
   .menu__btn {
-    display: flex; /* используем flex для центрирования содержимого */
-    align-items: center; /* центрируем содержимое кнопки */
+    display: flex;
+    align-items: center;
     position: fixed;
-    top: 13px;
+    top: 28px;
     right: 20px;
     width: 26px;
     height: 26px;
     cursor: pointer;
     z-index: 1;
   }
-  /* добавляем "гамбургер" */
+
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
@@ -108,15 +112,15 @@
     content: '';
     top: 8px;
   }
-  /* контейнер меню */
+
   .menu__box {
     display: block;
     position: fixed;
     visibility: hidden;
-    top: 50px;
+    top: 80px;
     right: 100%;
-    width: 50%;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 20px 0;
     list-style: none;
@@ -124,13 +128,14 @@
     background-color: rgba(29, 33, 51, 0.9);
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
   }
-  /* элементы меню */
+
   .menu__item {
+    margin-top: 2rem;
     display: block;
-    padding: 12px 24px;
+    padding: 20px 24px;
     color: #e84545;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
