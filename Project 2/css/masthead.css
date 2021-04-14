@@ -1,6 +1,6 @@
 .masthead {
   width: 100%;
-  background-image: url(/img/masthead.png);
+  background-image: url(../img/masthead.png);
   padding: 256px 0 156px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,17 +53,17 @@
 }
 @media (max-width: 2000px) {
   .masthead {
-    background-image: url(/img/masthead2.png);
+    background-image: url(../img/masthead2.png);
   }
 }
 @media (max-width: 1500px) {
   .masthead {
-    background-image: url(/img/masthead3.png);
+    background-image: url(../img/masthead3.png);
   }
 }
 @media (max-width: 1024px) {
   .masthead {
-    background-image: url(/img/masthead4.png);
+    background-image: url(../img/masthead4.png);
   }
   .title-text {
     font-family: 'Raleway';

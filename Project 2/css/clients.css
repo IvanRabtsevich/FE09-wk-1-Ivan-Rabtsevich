@@ -56,19 +56,19 @@
   background-size: cover;
 }
 .sarah {
-  background-image: url(/img/Sarah.png);
+  background-image: url(../img/Sarah.png);
 }
 .jamy {
-  background-image: url(/img/Jamy.jpg);
+  background-image: url(../img/Jamy.jpg);
 }
 .adam {
-  background-image: url(/img/Adam.jpg);
+  background-image: url(../img/Adam.jpg);
 }
 .liz {
-  background-image: url(/img/Liz.jpg);
+  background-image: url(../img/Liz.jpg);
 }
 .cris {
-  background-image: url(/img/Cris.jpg);
+  background-image: url(../img/Cris.jpg);
 }
 .review {
   width: 50%;
